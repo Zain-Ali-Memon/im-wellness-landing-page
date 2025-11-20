@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Healthcare Virtual Assistant | DoctorPapers</title>
+  <meta name="description"
+    content="Discover how our intelligent medical virtual assistant streamlines both your administrative tasks and the front-desk process.">
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="icon" href="./images/favicon.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+
+<body>
+
+  <!-- Header / Hero Section -->
+
+  <div class="doc-top-bar">
+    <div class="main-top-bar">
+      <div class="container top-bar-con">
+         <a href="tel:+14126843034"><img src="./images/top-phone.svg" alt=""> +1 (412) 684 3034</a>
+        <span class="divider"> </span>
+        <a href="mailto:info@doctorpapers.com"><img src="./images/top-email.svg" alt=""> info@doctorpapers.com</a>
+      </div>
+    </div>
+  </div>
+  <header class="hero-section">
+
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 head-col">
+          <div class="logo-doctorPapers">
+            <img src="./images/wellness-logo.webp" style="width: 125px; height: 48px;" alt="">
+          </div>
+        </div>
+
+        <div class="col-md-4 head-col">
+          <div class="menus-doctorPapers">
+            <!-- <nav class="services-nav bg-primary text-white py-3">
+              <div class="container text-center">
+                <ul class="nav justify-content-center">
+                  <li class="nav-item"><a href="#" class="nav-link text-white">Home</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link text-white">Services</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link text-white">About</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link text-white">Contact</a></li>
+                </ul>
+              </div>
+            </nav> -->
+          </div>
+        </div>
+
+        <div class="col-md-4 head-col">
+          <div class="button-doctorPapers">
+            <button> <a href="#contact">Talk To An Expert </a></button>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+  </header>
+
+  <!-- banner -->
+  <section class="banner-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 align-items-center responsive-col">
+          <img class="banner-image" src="./images/banner-image.webp" alt="">
+          <div class="platforms">
+            <div class="platform-icon">
+              
+                <img src="./images/Trustpilot Logo.webp" alt="">
+             
+            </div>
+            <div class="platform-icon">
+             
+                <img src="./images/google-reveiws.webp" alt="">
+              
+            </div>
+            <div class="platform-icon">
+             
+                <img src="./images/GoodFirms 1.webp" alt="">
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7 banner-con">
+          <div class="content-banner">
+            <h1>Transform with Insight Mental Wellness</h1>
+            <p>At Insight Mental Wellness, we offer personalized mental health care designed to support your journey toward recovery and stability. Our services include medication management, mental health evaluations, and advanced treatments like rTMS and Spravato.</p>
+
+            <!-- <form class="contact-form"> -->
+            <form action="php/contact.php" method="post" class="php-email-form contact-form">
+              <h2>Schedule Your Appointment</h2>
+              <hr class="form-hr">
+
+              <!-- Full Name + Practice Name -->
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="fullname">Full Name*</label>
+                  <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                  <label for="practice">Practice Name*</label>
+                  <input type="text" id="practice" name="practice" placeholder="Enter practice name" required>
+                </div>
+              </div>
+
+              <!-- Email + Phone -->
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email*</label>
+                  <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone*</label>
+                  <input type="tel" id="phone" name="phone" placeholder="Enter phone number" required>
+                </div>
+              </div>
+              <!-- Hidden field for reCAPTCHA v3 -->
+  <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+
+              <!-- Message -->
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Type your message..."></textarea>
+              </div>
+
+              <!-- sms -->
+              <div class="form-group sms-consent mt-4">
+                <label>
+                  <input type="checkbox" name="sms_consent">
+                  I agree to receive SMS updates from DoctorPapers. Message &amp; data rates may apply. Text HELP to <a
+                    style="color:#0096fd;" href="tel:+14126843034"> +1 (412) 684-3034 </a> for support or STOP to opt
+                  out. See <a style="color:#080808;" href="https://doctorpapers.com/privacy-policy/" target="_blank">
+                    Privacy Policy.</a>
+                </label>
+              </div>
+
+              <!-- Submit -->
+              <div class="form-actions">
+                <button type="submit">Let’s Begin</button>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- accurate billing -->
+  <section class="accurate">
+    <div class="container">
+      <h2 class="text-center mb-4 DP-Title">The Winning Numbers Behind Our Services</h2>
+      <div class="counter-section">
+        <div class="counter-box">
+          <h2><span class="counter" data-target="08">00</span>+</h2>
+          <p>Years of Experience</p>
+        </div>
+
+        <div class="v-line">|</div>
+
+        <div class="counter-box">
+          <h2><span class="counter" data-target="500">0</span>+</h2>
+          <p>Satisfied Clients</p>
+        </div>
+
+        <div class="v-line">|</div>
+
+        <div class="counter-box">
+          <h2><span class="counter" data-target="90">0</span>%</h2>
+          <p>Problem Solved</p>
+        </div>
+
+        <div class="v-line">|</div>
+
+        <div class="counter-box">
+          <h2><span class="counter" data-target="1000">0</span>+</h2>
+          <p>Virtual Assistants</p>
+        </div>
+      </div>
+      <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          const counters = document.querySelectorAll(".counter");
+
+          counters.forEach(counter => {
+            const target = +counter.getAttribute("data-target");
+            let count = Math.floor(target / 2); // start from half
+            counter.innerText = count;
+
+            const increment = Math.ceil(target / 100);
+
+            const updateCounter = () => {
+              if (count < target) {
+                count += increment;
+                if (count > target) count = target;
+
+                // add leading zero if less than 10
+                counter.innerText = count < 10 ? "0" + count : count;
+                requestAnimationFrame(updateCounter);
+              }
+            };
+
+            updateCounter();
+          });
+        });
+      </script>
+
+    </div>
+  </section>
+
+  <!-- Our Services -->
+  <section class="our-services">
+    <div class="container bg-con">
+      <div class="row">
+
+        <!-- Left Column -->
+        <div class="col-md-4 service-left">
+          <h2>Our Services</h2>
+          <p>
+            we are committed to providing exceptional mental health services tailored to your individual needs. Our expert team offers a range of comprehensive care options, ensuring that you receive the support you need for your mental wellness journey.
+          </p>
+          <img src="./images/image.webp" alt="Left Image" class="img-fluid mt-3">
+
+        </div>
+
+        <!-- Right Column -->
+        <div class="col-md-8">
+          <div class="row g-4">
+
+            <!-- Row 1 -->
+            <div class="col-6 service-text">
+              <img src="./images/image-1.webp" class="img-fluid" alt="">
+              <p>Medication Management</p>
+            </div>
+            <div class="col-6 service-text">
+              <img src="./images/image-2.webp" class="img-fluid" alt="">
+              <p>Telepsychiatry</p>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="col-6 service-text white-content">
+              <img src="./images/image-3.webp" class="img-fluid" alt="">
+              <p>Neuropsych Evaluations</p>
+            </div>
+            <div class="col-6 service-text white-content">
+              <img src="./images/image-4.webp" class="img-fluid" alt="">
+              <p>Therapy & Counseling</p>
+            </div>
+
+            <!-- Row 3 -->
+            <div class="col-6 service-list">
+              <!-- <img src="https://via.placeholder.com/150" class="img-fluid mb-2" alt=""> -->
+              <ul>
+                <li><img src="./images/check.svg" alt=""> OBSESSIVE-COMPULSIVE DISORDER (OCD)<li>
+                <li><img src="./images/check.svg" alt=""> EATING DISORDERS</li>
+                <li><img src="./images/check.svg" alt=""> DEPRESSION</li>
+                <li><img src="./images/check.svg" alt=""> INSOMNIA</li>
+                <li><img src="./images/check.svg" alt=""> POST-TRAUMATIC STRESS DISORDER (PTSD)</li>
+                
+              </ul>
+            </div>
+            <div class="col-6 service-list">
+              <ul>
+                <li><img src="./images/check.svg" alt="">SCHIZO DISORDERS</li>
+                <li><img src="./images/check.svg" alt=""> ANXIETY DISORDER</li>
+                <li><img src="./images/check.svg" alt="">MOOD DISORDER </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="service-contact">
+          <div class="service-call">
+            <img src="./images/yellow-phone.svg" alt="">
+            <div class="service-call-text">
+              <p>Call Us On</p>
+              <p><a href="tel:+14126843034">+1 (412) 684 3034</a></p>
+            </div>
+          </div>
+
+
+
+          <div class="button-doctorPapers-service">
+            <button><a href="#contact"> Get Your Appointment </a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Why Choose -->
+  <section class="choose py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="choose-content">
+            <h2>About Insight Mental Wellness</h2>
+            <img src="./images/wellness-about.webp" alt="">
+            <p class="mt-4">Our expert team offers a wide range of services, from medication management to innovative treatments like rTMS and Spravato, to help you achieve mental wellness and stability.</p>
+
+            <ul class="list-unstyled mt-4">
+              <li class="gap-list">
+                <div class="radius-box">
+                <span>1</span>
+                </div>
+                <div class="list-text">
+                  <h3 class="mb-1">Collaborative Care</h3>
+                  <p class="mb-0 text-muted">Working together to provide compassionate and comprehensive care.</p>
+                </div>
+              </li>
+
+              <li class="d-flex gap-list mb-4">
+                <div class="radius-box">
+                <span>2</span>
+                </div>
+                <div class="list-text">
+                  <h3 class="mb-1">Decide on your best treatment</h3>
+                  <p class="mb-0 text-muted">Customized prescriptions and management of psychiatric medications.</p>
+                </div>
+              </li>
+
+              <li class="d-flex gap-list mb-4">
+                <div class="radius-box">
+                <span>3</span>
+                </div>
+                <div class="list-text">
+                  <h3 class="mb-1">Ready to schedule your visit?</h3>
+                  <p class="mb-0 text-muted">Thorough assessments to identify your mental health needs.</p>
+                </div>
+              </li>
+            </ul>
+            <div class="button-doctorPapers-service reuse">
+              <button><a href="#contact">Let’s Begin </a></button>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-6 choose-image">
+          <img src="./images/wellness-about.webp" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Work -->
+
+  <section class="how-it-works">
+    <div class="container">
+      <div class="row">
+        <!-- Left Column -->
+        <div class="col-12">
+          <div class="how-header">
+            <h2>Our Simple 3-Step Process</h2>
+            <p>
+              DoctorPapers’ virtual assistants for doctors’ practices provide a smooth experience designed to deliver
+              immediate results. In just three steps, you can improve your operations and dedicate more time to
+              delivering quality patient care.
+            </p>
+            <button><a href="#contact"> Let’s Get Started </a></button>
+          </div>
+        </div>
+
+        <!-- Right Column Timeline -->
+        <div class="col-12 timeline">
+          <!-- Curved Glowing Path -->
+          <svg class="line-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" preserveAspectRatio="none">
+            <defs>
+              <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur" />
+                <feFlood flood-color="#2196f3" flood-opacity="0.8" result="color" />
+                <feComposite in="color" in2="blur" operator="in" result="coloredBlur" />
+                <feMerge>
+                  <feMergeNode in="coloredBlur" />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
+            </defs>
+
+            <!-- Blue glowing curved path -->
+            <path
+              d="M68.834 134.655C415.469 337.252 296.183 155.477 486.474 134.65S676.998 239.855 900.65 28.828C919.809 14.685 949.71-2.166 1010.996 5.265"
+              stroke="#E86F04" stroke-width="4" fill="transparent" filter="url()" />
+
+            <!-- Yellow dots -->
+            <circle cx="150" cy="180" r="10" fill="#333" />
+            <circle cx="600" cy="140" r="10" fill="#333" />
+            <circle cx="950" cy="9" r="10" fill="#333" />
+          </svg>
+
+          <!-- Steps -->
+          <div class="step step1">
+            <span class="number">1</span>
+            <h3>Outline Your Needs</h3>
+            <p>Describe the specific tasks and responsibilities you would like to delegate, ranging from front-desk
+              duties to back-office administration.</p>
+          </div>
+
+          <div class="step step2">
+            <span class="number">2</span>
+            <h3>Get Matched With a Specialist</h3>
+            <p>We connect you with a trained medical virtual assistant who understands your practice’s workflow.</p>
+          </div>
+
+          <div class="step step3">
+            <span class="number">3</span>
+            <h3>Start Driving Results</h3>
+            <p>Your new assistant integrates directly into your workflow, immediately boosting efficiency, reducing
+              operational costs, and freeing up your team.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What VA DO FOR YOU -->
+
+  <section class="va-do">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center va-do-title">
+          <h2>How a Healthcare Virtual Assistant Can Help</h2>
+        </div>
+      </div>
+      <div class="row dp-p">
+        <div class="slider" id="slider">
+          <!-- arrows (optional) -->
+          <button class="arrow prev" id="prevBtn" aria-label="Previous">‹</button>
+          <button class="arrow next" id="nextBtn" aria-label="Next">›</button>
+
+          <!-- slides track -->
+          <div class="slides" id="slidesTrack">
+            <article class="va-do-col" role="article">
+              <img src="./images/schedule.svg" alt="icon 1">
+              <h3>Smooth Appointment Management</h3>
+              <p>Maintain an organized calendar with expert scheduling and automated reminders to stay on track. Reduce
+                no-shows and ensure your practice runs at peak efficiency.</p>
+            </article>
+
+            <article class="va-do-col" role="article">
+              <img src="./images/patient-communication.svg" alt="icon 2">
+              <h3>Professional Patient Engagement</h3>
+              <p>Build stronger patient relationships with clear and timely communication. Our virtual assistant for
+                doctors’ offices can manage calls and follow-ups to ensure quality care.</p>
+            </article>
+
+            <article class="va-do-col" role="article">
+              <img src="./images/administrative-support.svg" alt="icon 3">
+              <h3>Administrative Support Simplified</h3>
+              <p>Delegate essential back-office tasks like documentation, email management, and data entry to our
+                medical virtual assistants so that your staff can focus on more critical tasks.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VA Services For Every Specialty -->
+
+  <section class="every-specialty">
+    <div class="container">
+      <div class="row">
+        <h2 class="va-do-title">Virtual Medical Assistants for Specialties, Labs, and Care Facilities</h2>
+        <div class="col-md-3 service-list every-specialty-list after-title">
+          <ul>
+            <li><img src="./images/check.svg" alt=""> Allergy & Immunology</li>
+            <li><img src="./images/check.svg" alt=""> Cardiology / Cardiovascular</li>
+            <li><img src="./images/check.svg" alt=""> Dermatology</li>
+            <li><img src="./images/check.svg" alt=""> Endocrinology</li>
+            <li><img src="./images/check.svg" alt=""> Gastroenterology</li>
+            <li><img src="./images/check.svg" alt=""> Geriatrics</li>
+            <li><img src="./images/check.svg" alt=""> Gynecology</li>
+            <li><img src="./images/check.svg" alt=""> Hepatology</li>
+            <li><img src="./images/check.svg" alt=""> Infectious Disease</li>
+            <li><img src="./images/check.svg" alt=""> Internal Medicine</li>
+            <li><img src="./images/check.svg" alt=""> Neurosurgery</li>
+            <li><img src="./images/check.svg" alt=""> OB/GYN</li>
+
+          </ul>
+        </div>
+        <div class="col-md-3 service-list every-specialty-list after-title">
+          <ul>
+            <li><img src="./images/check.svg" alt=""> Oncology</li>
+            <li><img src="./images/check.svg" alt=""> Ophthalmology</li>
+            <li><img src="./images/check.svg" alt=""> Orthopedic</li>
+            <li><img src="./images/check.svg" alt=""> Otolaryngology (ENT)</li>
+            <li><img src="./images/check.svg" alt=""> Pain Management</li>
+            <li><img src="./images/check.svg" alt=""> Pediatrics</li>
+            <li><img src="./images/check.svg" alt=""> Physical Therapy</li>
+            <li><img src="./images/check.svg" alt=""> Podiatry</li>
+            <li><img src="./images/check.svg" alt=""> Psychiatry</li>
+            <li><img src="./images/check.svg" alt=""> Pulmonology</li>
+            <li><img src="./images/check.svg" alt=""> Radiology</li>
+            <li><img src="./images/check.svg" alt=""> Rheumatology</li>
+          </ul>
+        </div>
+        <div class="col-md-3 service-list every-specialty-list d-p-none">
+          <ul>
+            <li><img src="./images/check.svg" alt=""> Sleep Medicine</li>
+            <li><img src="./images/check.svg" alt=""> Speech Therapy</li>
+            <li><img src="./images/check.svg" alt=""> Thoracic Surgery</li>
+            <li><img src="./images/check.svg" alt=""> Traumatology</li>
+            <li><img src="./images/check.svg" alt=""> Vascular Surgery</li>
+            <li><img src="./images/check.svg" alt=""> Behavioral Health</li>
+            <li><img src="./images/check.svg" alt=""> Clinical Lab</li>
+            <li><img src="./images/check.svg" alt=""> FQHC</li>
+            <li><img src="./images/check.svg" alt=""> Hand Surgery</li>
+            <li><img src="./images/check.svg" alt=""> House Call</li>
+            <li><img src="./images/check.svg" alt=""> Molecular Lab</li>
+            <li><img src="./images/check.svg" alt=""> Nursing Home</li>
+
+          </ul>
+        </div>
+        <div class="col-md-3 service-list every-specialty-list d-p-none">
+          <ul>
+            <li><img src="./images/check.svg" alt=""> Pathology Lab</li>
+            <li><img src="./images/check.svg" alt=""> Primary Care</li>
+            <li><img src="./images/check.svg" alt=""> Public Health</li>
+            <li><img src="./images/check.svg" alt=""> Prostheses</li>
+            <li><img src="./images/check.svg" alt=""> Substance Abuse Rehab</li>
+            <li><img src="./images/check.svg" alt=""> Toxicology Lab</li>
+            <li><img src="./images/check.svg" alt=""> Urgent Care</li>
+            <li><img src="./images/check.svg" alt=""> Wound Care</li>
+            <li><img src="./images/check.svg" alt=""> DME</li>
+
+
+
+          </ul>
+        </div>
+        <div class="button-doctorPapers-service all-special">
+          <button><a href="">View All Specialties</a></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- partner with DoctorPapers -->
+
+  <section class="partner-DP">
+    <div class="container bground-gradi">
+      <div class="row">
+        <div class="col-md-6 partner-content-center">
+          <div class="partner-content">
+            <h2>Your Virtual Medical Assistant is Waiting for You. Why Wait?</h2>
+            <p>Whether you manage a small independent practice, a growing medical group, or a large hospital, our
+              virtual medical assistants can improve the way you handle your practice’s daily operations and provide
+              front-desk support.
+            </p>
+            <p>
+              DoctorPapers’ virtual healthcare assistant reduces your administrative workload, helps you increase
+              revenue, and allows you to deliver a better experience for your patients.
+            </p>
+            <div class="button-doctorPapers-service partner-bt">
+              <button><a href="#contact">Get Started Today!</a></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="partner-img">
+            <img src="./images/image-8.webp" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- testimonials -->
+
+  <section class="va-testi">
+    <div class="container">
+      <div class="testi-text">
+        <h2 style="text-align:center; margin-bottom:30px;">See What Our Clients Are Saying About Us</h2>
+        <p>Client satisfaction is at the heart of everything we do at DoctorPapers. Discover how our intelligent virtual
+          medical assistants have alleviated the administrative burden for doctors, physicians, and practices all over!
+        </p>
+      </div>
+      <div class="row">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+
+            <!-- Testimonial 1 -->
+            <div class="swiper-slide">
+              <div class="testimonial-box">
+                <h3>Dr. Aisha Khan</h3>
+                <span>Family Physician</span>
+                <div class="stars">★★★★★</div>
+                <p>“DoctorPapers’ virtual assistant was a game changer for our clinic. We saw fewer patient complaints,
+                  and our front desk finally caught up. We’ve seen faster front-desk processes and far less staff
+                  burnout.”</p>
+              </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="swiper-slide">
+              <div class="testimonial-box">
+                <h3>Michael Rivera</h3>
+                <span>Operations Director</span>
+                <div class="stars">★★★★★</div>
+                <p>“We implemented DoctorPapers’ online medical assistant for our office workflows and immediately
+                  noticed improved throughput and fewer scheduling gaps. The team adapted in days, not weeks.”</p>
+              </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="swiper-slide">
+              <div class="testimonial-box">
+                <h3>Dr. Emily Park</h3>
+                <span>Orthopedic Surgeon</span>
+                <div class="stars">★★★★★</div>
+                <p>“Working with DoctorPapers’ virtual assistant handled our patient follow-ups like a treat! Now we are
+                  more focused on providing good care to our patients.”</p>
+              </div>
+            </div>
+
+            <!-- Testimonial 4 -->
+            <div class="swiper-slide">
+              <div class="testimonial-box">
+                <h3>Karen Mitchell</h3>
+                <span>CEO</span>
+                <div class="stars">★★★★★</div>
+                <p>“As a multi-location group, we needed dependable coverage across sites. The virtual assistant
+                  connected so well with our workflow, reduced our administrative backlog, and improved patient
+                  experience.”</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Swiper navigation -->
+
+        </div>
+        <div class="slide-btn">
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="contact-section-text">
+            <h2>Let’s Connect</h2>
+            <p>Looking to delegate your admin tasks to a reliable virtual health care assistant? Fill out the details in
+              the support form to get things started!</p>
+            <ul class="contact-list">
+              <li class="d-flex gap-4">
+                <img src="./images/phone.svg" alt="">
+                <div class="contact-names-action">
+
+                  <a href="tel:+14126843034">+1 (412) 684 3034</a>
+                </div>
+              </li>
+              <li class="d-flex gap-4">
+                <img src="./images/email.svg" alt="">
+                <div class="contact-names-action">
+
+                  <a href="mailto:info@doctorpapers.com">info@doctorpapers.com</a>
+                </div>
+              </li>
+
+              <li class="d-flex gap-4">
+                <img src="./images/location.svg" alt="">
+                <div class="contact-names-action">
+
+                  <span> 100 N Brand Blvd Suite 522
+                    Glendale, CA 91203</span>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <!-- <form id="myForm" class="contact-section-form" method="POST" action=""> -->
+          <form action="php/contact.php" method="post" class="php-email-form contact-section-form">
+
+
+            <div class="form-group">
+              <label for="name">Full Name*</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="practice">Practice Name*</label>
+              <input type="text" id="practice" name="practice" placeholder="Enter practice name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address*</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number*</label>
+              <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+            <!-- Hidden field for reCAPTCHA v3 -->
+  <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Write your message"></textarea>
+            </div>
+
+            <!-- SMS Consent Checkbox -->
+            <div class="form-group sms-consent">
+              <label class="checkbox-label">
+                <input type="checkbox" name="sms_consent" required>
+                <span>I agree to receive SMS updates from DoctorPapers. Message &amp; data rates may apply. Text HELP to
+                  <a style="color:#0096fd;" href="tel:+14126843034"> +1 (412) 684-3034 </a> for support or STOP to opt
+                  out. See <a style="color:#0096fd;" href="https://doctorpapers.com/privacy-policy/" target="_blank">
+                    Privacy Policy.</a></span>
+              </label>
+            </div>
+
+
+            <button type="submit">Book Your Free Consultation</button>
+          </form>
+          <!-- ///// popup //// -->
+          <!-- <div class="overlay"></div>
+          <div class="popup" id="popupMessage">
+            <p id="popupText"></p>
+            <button onclick="closePopup()">OK</button> -->
+          <!-- ///// popup //// -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="va-footer">
+    <div class="container">
+      <div class="row foot-border">
+        <!-- First column -->
+        <div class="col-12 col-lg-4">
+          <div class="logo-content">
+            <img src="./images/wellness-logo.webp" style="width: 125px; height: 48px;" alt="">
+            <p>DoctorPapers, part of TechMatter, is a trusted provider of medical billing and collections solutions,
+              offering high-quality services to physicians and healthcare practices across diverse specialties
+              throughout the United States.</p>
+            <div class="va-social">
+              <a href="https://www.linkedin.com/company/doctorpapers/" target="_blank"> <img src="./images/linkedin.svg"
+                  alt=""></a>
+              <a href="https://www.instagram.com/doctorpapers_/" target="_blank"> <img src="./images/instagram.svg"
+                  alt=""> </a>
+              <a href="https://www.facebook.com/doctorpapers1" target="_blank"> <img src="./images/facebook.svg" alt="">
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Second column -->
+        <div class="col-6 col-lg-4">
+          <div class="footer-contact">
+            <h2>Contact Us</h2>
+            <ul>
+              <li>
+                <img src="./images/phone.svg" alt="">
+                <a href="tel:+14126843034">+1 (412) 684 3034</a>
+              </li>
+              <li>
+                <img src="./images/email.svg" alt="">
+                <a href="mailto:info@doctorpapers.com">info@doctorpapers.com</a>
+              </li>
+              <li>
+                <img src="./images/location.svg" alt="">
+                <span> 100 N Brand Blvd Suite 522 Glendale,
+                  CA 91203</span>
+              </li>
+            </ul>
+            <div class="va-social social-responsive">
+              <a href="https://www.linkedin.com/company/doctorpapers/" target="_blank"> <img src="./images/linkedin.svg"
+                  alt=""> </a>
+              <a href="https://www.instagram.com/doctorpapers_/" target="_blank">
+                <img src="./images/instagram.svg" alt=""> </a>
+              <a href="https://www.facebook.com/doctorpapers1" target="_blank">
+                <img src="./images/facebook.svg" alt=""> </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Third column -->
+        <div class="col-6 col-lg-4">
+          <div class="footer-badge">
+            <img src="./images/lmbc - badge.webp" alt="">
+            <img src="./images/clutch - badge.webp" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="privacy-policy copyrights">
+            <a href="https://doctorpapers.com/privacy-policy/">Privacy Policy</a>
+            <a href="https://doctorpapers.com/terms-of-use/">Terms of Use</a>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="copyrights">
+            <p>Copyright &copy; 2025 DoctorPapers. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js?render=6Ld6r2srAAAAAD1Xks3kg0ABH94cYIWvgGYyvsmJ"></script>
+<script>
+grecaptcha.ready(function () {
+    grecaptcha.execute('6Ld6r2srAAAAAD1Xks3kg0ABH94cYIWvgGYyvsmJ', { action: 'submit' })
+        .then(function (token) {
+            document.getElementById('recaptchaResponse').value = token;
+        });
+});
+</script>
+
+</body>
+<script>
+  const swiper = new Swiper('.swiper', {
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev'
+    }
+  });
+</script>
+
+<script>
+  // Small JS to make Prev/Next buttons scroll one slide on mobile.
+  (function () {
+    const slidesTrack = document.getElementById('slidesTrack');
+    const prev = document.getElementById('prevBtn');
+    const next = document.getElementById('nextBtn');
+
+    if (!slidesTrack) return;
+
+    // calculate slide width (updates on resize)
+    function getSlideWidth() {
+      const first = slidesTrack.querySelector('.va-do-col');
+      if (!first) return slidesTrack.clientWidth;
+      // Use bounding width (includes padding/border if present)
+      return Math.round(first.getBoundingClientRect().width + parseFloat(getComputedStyle(slidesTrack).gap || 0));
+    }
+
+    function scrollBySlide(direction = 1) {
+      const step = getSlideWidth();
+      slidesTrack.scrollBy({ left: direction * step, top: 0, behavior: 'smooth' });
+    }
+
+    // attach only if buttons exist
+    prev && prev.addEventListener('click', () => scrollBySlide(-1));
+    next && next.addEventListener('click', () => scrollBySlide(1));
+
+    // Optional: hide arrows on large screens
+    function updateArrowVisibility() {
+      const show = window.matchMedia('(max-width:768px)').matches;
+      prev.style.display = show ? 'flex' : 'none';
+      next.style.display = show ? 'flex' : 'none';
+    }
+    updateArrowVisibility();
+    window.addEventListener('resize', updateArrowVisibility);
+
+    // Prevent vertical scrolling while swiping horizontally on some browsers (optional)
+    let startY = 0, startX = 0, isDragging = false;
+    slidesTrack.addEventListener('touchstart', (e) => {
+      startX = e.touches[0].clientX;
+      startY = e.touches[0].clientY;
+      isDragging = true;
+    }, { passive: true });
+    slidesTrack.addEventListener('touchmove', (e) => {
+      if (!isDragging) return;
+      const dx = Math.abs(e.touches[0].clientX - startX);
+      const dy = Math.abs(e.touches[0].clientY - startY);
+      if (dx > dy) {
+        // horizontal intent: prevent page vertical scroll while interacting
+        e.stopPropagation();
+      }
+    }, { passive: false });
+    slidesTrack.addEventListener('touchend', () => { isDragging = false; });
+  })();
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const counters = document.querySelectorAll(".counter");
+
+    counters.forEach(counter => {
+      const target = +counter.getAttribute("data-target");   // final number
+      let count = Math.floor(target / 2);                    // start from half
+      counter.innerText = count;
+
+      const increment = Math.ceil(target / 100); // speed factor
+
+      const updateCounter = () => {
+        if (count < target) {
+          count += increment;
+          if (count > target) count = target;   // don’t overshoot
+          counter.innerText = count;
+          requestAnimationFrame(updateCounter);
+        }
+      };
+
+      updateCounter();
+    });
+  });
+</script>
+
+<!-- <script>
+  const clients = [
+    {
+      name: "Dr. Aisha Khan",
+      positon:"Family Physician",
+      image: "./images/Testimonial Image-1.webp",
+      review: "DoctorPapers’ virtual assistant was a game changer for our clinic. We saw fewer patient complaints, and our front desk finally caught up. We’ve seen faster front-desk processes and far less staff burnout."
+    },
+    {
+      name: "Michael Rivera",
+      positon:"Operations Director",
+      image: "./images/Testimonial Image-2.webp",
+      review: "We implemented DoctorPapers’ online medical assistant for our office workflows and immediately noticed improved throughput and fewer scheduling gaps. The team adapted in days, not weeks."
+    },
+    {
+      name: "Dr. Emily Park",
+      positon:"Orthopedic Surgeon",
+      image: "./images/Testimonial Image-1.webp",
+      review: "Working with DoctorPapers’ virtual assistant handled our patient follow-ups like a treat! Now we are more focused on providing good care to our patients."
+    },
+    {
+      name: "Karen Mitchell",
+      positon:"CEO",
+      image: "./images/Testimonial Image-2.webp",
+      review: "As a multi-location group, we needed dependable coverage across sites. The virtual assistant connected so well with our workflow, reduced our administrative backlog, and improved patient experience."
+    }
+  ];
+
+  let current = 0;
+
+  const activeImg = document.querySelector(".va-testi-img.active");
+  const upcomingImg = document.querySelector(".va-testi-img.upcoming");
+  const reviewText = document.querySelector(".va-review-text");
+  const clientName = document.querySelector(".va-client-name");
+  const clientPositon = document.querySelector(".va-client-position");
+
+  function showSlide(index) {
+    if (index >= clients.length) current = 0;
+    if (index < 0) current = clients.length - 1;
+
+    // Active client
+    activeImg.src = clients[current].image;
+    activeImg.alt = clients[current].name;
+
+    // Upcoming client
+    let next = (current + 1) % clients.length;
+    upcomingImg.src = clients[next].image;
+    upcomingImg.alt = clients[next].name;
+
+    // Review box
+    reviewText.textContent = `"${clients[current].review}"`;
+    clientName.textContent = clients[current].name;
+    clientPositon.textContent = clients[current].positon;
+  }
+
+  document.querySelector(".va-next").addEventListener("click", () => {
+    current++;
+    showSlide(current);
+  });
+
+  document.querySelector(".va-prev").addEventListener("click", () => {
+    current--;
+    showSlide(current);
+  });
+
+  // Init first slide
+  showSlide(current);
+</script> -->
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const swiper = new Swiper('.mySwiper', {
+      slidesPerView: 2,
+      spaceBetween: 20,
+      loop: false, // set true if you want looping
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      breakpoints: {
+        0: { slidesPerView: 1 },
+        768: { slidesPerView: 2 }
+      }
+    });
+
+    // JS fallback to equalize heights (useful if fonts/images change final heights)
+    function equalizeTestimonialHeights() {
+      const boxes = document.querySelectorAll('.mySwiper .testimonial-box');
+      if (!boxes || boxes.length === 0) return;
+      // reset inline heights
+      boxes.forEach(b => b.style.height = 'auto');
+      // compute max
+      let max = 0;
+      boxes.forEach(b => {
+        const h = b.getBoundingClientRect().height;
+        if (h > max) max = h;
+      });
+      // apply max to all boxes
+      boxes.forEach(b => b.style.height = Math.ceil(max) + 'px');
+    }
+
+    // run after everything loads
+    window.addEventListener('load', equalizeTestimonialHeights);
+    // also on resize (debounced)
+    let resizeTimer;
+    window.addEventListener('resize', function () {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(equalizeTestimonialHeights, 120);
+    });
+
+    // run after swiper initialization (some browsers may need a small delay)
+    setTimeout(equalizeTestimonialHeights, 200);
+  });
+</script>
+
+<!-- //// Talk To ///// -->
+ <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/68a847704ebc491927e0ec0c/1j38le3sh';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+<!-- ///popup/// -->
+<!-- <script>
+    const form = document.getElementById('myForm');
+    const popup = document.getElementById('popupMessage');
+    const popupText = document.getElementById('popupText');
+    const overlay = document.querySelector('.overlay');
+
+    form.addEventListener('submit', function(e) {
+      e.preventDefault(); // stop normal form submission
+
+      // Example: sending data using fetch (replace with your backend URL)
+      fetch('./contact.php', {
+        method: 'POST',
+        body: new FormData(form)
+      })
+      .then(response => response.text())
+      .then(data => {
+        if (data.includes("success")) {
+          showPopup("Message sent successfully!", "success");
+        } else {
+          showPopup("Something went wrong. Please try again!", "error");
+        }
+      })
+      .catch(() => {
+        showPopup("Server error! Try later.", "error");
+      });
+    });
+
+    function showPopup(message, type) {
+      popupText.textContent = message;
+      popup.className = "popup " + type;
+      popup.style.display = "block";
+      overlay.style.display = "block";
+    }
+
+    function closePopup() {
+      popup.style.display = "none";
+      overlay.style.display = "none";
+    }
+  </script> -->
+
+</html>
