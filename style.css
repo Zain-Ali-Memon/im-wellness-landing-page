@@ -1045,7 +1045,7 @@ section.va-do {
   /* margin: 0 auto 14px; */
   display: block;
   border-radius: 8px;
-  background-color: #0096fd;
+  background-color: #e86f04;
   padding: 10px;
   margin-bottom: 40px;
 }
@@ -1344,7 +1344,7 @@ ul.contact-list li {
   position: static !important;
   width: 40px !important;
   height: 40px !important;
-  background-color: #0096fd !important;
+  background-color: #e86f04 !important;
   color: #ffffff !important;
   border-radius: 8px;
   font-size: 14px !important;
@@ -1419,8 +1419,9 @@ ul.contact-list li {
 }
 .testimonial-box span {
   font-size: 16px;
-  color: #0096fd;
+  color: #e86f04;
   margin-bottom: 10px;
+  font-weight:600;
 }
 
 .testimonial-box p {
