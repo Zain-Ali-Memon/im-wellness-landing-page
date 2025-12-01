@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Smart Healthcare Virtual Assistant | DoctorPapers</title>
+  <title>Comprehensive Mental Health Services︱Insight Mental Wellness</title>
   <meta name="description"
-    content="Discover how our intelligent medical virtual assistant streamlines both your administrative tasks and the front-desk process.">
+    content="Access patient-centered mental health services with fast assessments, personalized treatment plans, and ongoing support from our psychiatric specialists.">
   <meta name="robots" content="noindex,nofollow">
   <link rel="icon" href="./images/favicon.png" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -26,9 +26,9 @@
   <div class="doc-top-bar">
     <div class="main-top-bar">
       <div class="container top-bar-con">
-         <a href="tel:+14126843034"><img src="./images/top-phone.svg" alt=""> +1 (412) 684 3034</a>
+        <a href="tel:+12102457862"><img src="./images/top-phone.svg" alt="">+1 210-245-7862</a>
         <span class="divider"> </span>
-        <a href="mailto:info@doctorpapers.com"><img src="./images/top-email.svg" alt=""> info@doctorpapers.com</a>
+        <a href="mailto:info@im-wellness.com"><img src="./images/top-email.svg" alt=""> info@im-wellness.com</a>
       </div>
     </div>
   </div>
@@ -40,7 +40,7 @@
       <div class="row">
         <div class="col-md-4 head-col">
           <div class="logo-doctorPapers">
-            <img src="./images/DoctorPapers-logo.webp" alt="">
+            <img src="./images/wellness-logo.webp" style="width: 125px; height: 48px;" alt="">
           </div>
         </div>
 
@@ -74,9 +74,9 @@
   <section class="thank-text">
     <h1>Thank You!</h1>
     <p>Our team will review your request and get back to you as soon as possible.
-If your inquiry is urgent, please call us directly at <a href="tel:+14126843034">+1 (412) 684 3034</a>.</p>
+If your inquiry is urgent, please call us directly at <a href="tel:+12102457862">+1 210-245-7862</a>.</p>
 
-<p>In the meantime, feel free to browse our Blog / Specialties for more information.</p>
+<p>In the meantime, feel free to browse our Blog / Our Services for more information.</p>
   </section>
 
 
