@@ -3,7 +3,6 @@
 <?php
 if($_SERVER["REQUEST_METHOD"] == "POST") {
     $name     = htmlspecialchars($_POST['name']);
-    $practice = htmlspecialchars($_POST['practice']);
     $email    = htmlspecialchars($_POST['email']);
     $phone    = htmlspecialchars($_POST['phone']);
     $message  = htmlspecialchars($_POST['message']);

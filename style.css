@@ -1147,31 +1147,86 @@ section.va-do {
 
 .every-specialty {
   padding: 50px 0;
+  text-align: center;
 }
 
-.every-specialty-list li {
-  color: #080808;
-  /* line-height: 40px !important; */
-  margin-bottom: 20px;
+.brands-grid{
+    display: grid;
+    gap: var(--gap);
+    /* auto-fit will fill available columns with minimum 130px wide items */
+    grid-template-columns: repeat(6, 1fr);;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .brand-item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    background: var(--card-bg);
+    border-radius: 8px;
+    transition: transform .18s ease, box-shadow .18s ease;
+    /* optional subtle hover */
+  }
+  .brand-item:focus,
+  .brand-item:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(16,24,40,0.06);
+    outline: none;
+  }
+
+  .brand-item img{
+    display: block;
+    max-height: var(--max-logo-height);
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    vertical-align: middle;
+  }
+
+  /* If you want circular pills behind logos (optional) */
+  .brand-preset {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 10px;
+  }
+
+  /* small screens: reduce logo height */
+  @media (max-width: 480px){
+    :root { --max-logo-height: 48px; --gap: 12px; }
+  }
+
+  /* larger screens: grow logo height */
+  @media (min-width: 1400px){
+    :root { --max-logo-height: 80px; }
+  }
+
+  /* visually-hidden for accessible labels if needed */
+  .visually-hidden{
+    position: absolute !important;
+    height: 1px; width: 1px;
+    overflow: hidden;
+    clip: rect(1px,1px,1px,1px);
+    white-space: nowrap;
+  }
+
+  @media (max-width: 1024px) {
+    .brands-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 
 @media (max-width: 768px) {
-  .every-specialty-list li {
-    line-height: 15px !important;
-    /* margin-bottom: 10px; */
-  }
-
-  .every-specialty-list li img {
-    padding: 0;
-    margin: 5px;
-  }
-
-  .all-special {
-    text-align: center !important;
-    margin: 10px 0;
-    padding: 0;
-  }
+    .brands-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
+
+  /* ////////////////// */
 
 /* <!-- Contact Section --> */
 
