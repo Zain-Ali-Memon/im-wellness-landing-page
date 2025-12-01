@@ -1571,7 +1571,7 @@ ul.contact-list li {
     left: 0;
     width: 100%;
     height: 75%;
-    background: linear-gradient(to top left, #005a97, #0096fd);
+    background: linear-gradient(to top right, #f9b36d, #fff);
     border-radius: 10px 10px 10px 10px;
     z-index: -1;
   }
@@ -1589,7 +1589,7 @@ ul.contact-list li {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to top left, #005a97, #0096fd);
+    background: linear-gradient(to top right, #f9b36d, #fff);
     border-radius: 10px 10px 10px 10px;
     z-index: -1;
   }
