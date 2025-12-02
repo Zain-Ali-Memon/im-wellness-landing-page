@@ -91,22 +91,19 @@ If your inquiry is urgent, please call us directly at <a href="tel:+12102457862"
 
   <!-- Footer -->
 
-  <footer class="va-footer">
+<footer class="va-footer">
     <div class="container">
       <div class="row foot-border">
         <!-- First column -->
         <div class="col-12 col-lg-4">
           <div class="logo-content">
-            <img src="./images/DoctorPapers-logo.webp" alt="">
-            <p>DoctorPapers, part of TechMatter, is a trusted provider of medical billing and collections solutions,
-              offering high-quality services to physicians and healthcare practices across diverse specialties
-              throughout the United States.</p>
+            <img src="./images/wellness-logo.webp" style="width: 125px; height: 48px;" alt="">
+            <p>At Insight Mental Wellness, we offer personalized mental health care designed to support your journey
+              toward recovery and stability.</p>
             <div class="va-social">
-              <a href="https://www.linkedin.com/company/doctorpapers/" target="_blank"> <img src="./images/linkedin.svg"
-                  alt=""></a>
-              <a href="https://www.instagram.com/doctorpapers_/" target="_blank"> <img src="./images/instagram.svg"
-                  alt=""> </a>
-              <a href="https://www.facebook.com/doctorpapers1" target="_blank"> <img src="./images/facebook.svg" alt="">
+              <a href="/" target="_blank"> <img src="./images/linkedin.svg" alt=""></a>
+              <a href="/" target="_blank"> <img src="./images/instagram.svg" alt=""> </a>
+              <a href="#" target="_blank"> <img src="./images/facebook.svg" alt="">
               </a>
             </div>
 
@@ -119,25 +116,23 @@ If your inquiry is urgent, please call us directly at <a href="tel:+12102457862"
             <h2>Contact Us</h2>
             <ul>
               <li>
-                <img src="./images/phone.svg" alt="">
-                <a href="tel:+14126843034">+1 (412) 684 3034</a>
+                <img src="./images/footer-Asset 1.svg" alt="">
+                <a href="tel:+12102457862">+1 210-245-7862</a>
               </li>
               <li>
-                <img src="./images/email.svg" alt="">
-                <a href="mailto:info@doctorpapers.com">info@doctorpapers.com</a>
+                <img src="./images/footer-Asset 3.svg" alt="">
+                <a href="mailto:info@im-wellness.com">info@im-wellness.com</a>
               </li>
               <li>
-                <img src="./images/location.svg" alt="">
-                <a href="https://maps.app.goo.gl/zkFMWnMDVFYGXHwP6" target="_blank">100 N Brand Blvd Suite 522 Glendale,
-                  CA 91203</a>
+                <img src="./images/footer-Asset 2.svg" alt="">
+                <span> 10807 Perrin Beitel Ste 300, San Antonio, TX 78217, United States</span>
               </li>
             </ul>
             <div class="va-social social-responsive">
-              <a href="https://www.linkedin.com/company/doctorpapers/" target="_blank"> <img src="./images/linkedin.svg"
-                  alt=""> </a>
-              <a href="https://www.instagram.com/doctorpapers_/" target="_blank">
+              <a href="#" alt=""> </a>
+              <a href="#" target="_blank">
                 <img src="./images/instagram.svg" alt=""> </a>
-              <a href="https://www.facebook.com/doctorpapers1" target="_blank">
+              <a href="#" target="_blank">
                 <img src="./images/facebook.svg" alt=""> </a>
             </div>
           </div>
@@ -155,13 +150,13 @@ If your inquiry is urgent, please call us directly at <a href="tel:+12102457862"
       <div class="row">
         <div class="col-md-4">
           <div class="privacy-policy copyrights">
-            <a href="https://doctorpapers.com/privacy-policy/">Privacy Policy</a>
-            <a href="https://doctorpapers.com/terms-of-use/">Terms of Use</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
           </div>
         </div>
         <div class="col-md-8">
           <div class="copyrights">
-            <p>Copyright &copy; 2025 DoctorPapers. All rights reserved.</p>
+            <p>Copyright &copy; 2025 Im-Wellness. All rights reserved.</p>
           </div>
         </div>
       </div>
