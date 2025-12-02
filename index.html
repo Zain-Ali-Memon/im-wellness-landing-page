@@ -129,8 +129,7 @@
                   <input type="tel" id="phone" name="phone" placeholder="Enter phone number" required>
                 </div>
               </div>
-              <!-- Hidden field for reCAPTCHA v3 -->
-              <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+              
 
               <!-- Message -->
               <div class="form-group">
@@ -796,8 +795,7 @@
               <label for="practice">Subject*</label>
               <input type="text" id="practice" name="practice" placeholder="Enter your subject" required>
             </div>
-            <!-- Hidden field for reCAPTCHA v3 -->
-            <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+            
 
             <div class="form-group">
               <label for="message">Message</label>
@@ -907,15 +905,8 @@
   <!-- Bootstrap JS -->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://www.google.com/recaptcha/api.js?render=6Ld6r2srAAAAAD1Xks3kg0ABH94cYIWvgGYyvsmJ"></script>
-  <script>
-    grecaptcha.ready(function () {
-      grecaptcha.execute('6Ld6r2srAAAAAD1Xks3kg0ABH94cYIWvgGYyvsmJ', { action: 'submit' })
-        .then(function (token) {
-          document.getElementById('recaptchaResponse').value = token;
-        });
-    });
-  </script>
+  
+
 
 </body>
 <script>
@@ -1008,74 +999,6 @@
   });
 </script>
 
-<!-- <script>
-  const clients = [
-    {
-      name: "Dr. Aisha Khan",
-      positon:"Family Physician",
-      image: "./images/Testimonial Image-1.webp",
-      review: "DoctorPapers’ virtual assistant was a game changer for our clinic. We saw fewer patient complaints, and our front desk finally caught up. We’ve seen faster front-desk processes and far less staff burnout."
-    },
-    {
-      name: "Michael Rivera",
-      positon:"Operations Director",
-      image: "./images/Testimonial Image-2.webp",
-      review: "We implemented DoctorPapers’ online medical assistant for our office workflows and immediately noticed improved throughput and fewer scheduling gaps. The team adapted in days, not weeks."
-    },
-    {
-      name: "Dr. Emily Park",
-      positon:"Orthopedic Surgeon",
-      image: "./images/Testimonial Image-1.webp",
-      review: "Working with DoctorPapers’ virtual assistant handled our patient follow-ups like a treat! Now we are more focused on providing good care to our patients."
-    },
-    {
-      name: "Karen Mitchell",
-      positon:"CEO",
-      image: "./images/Testimonial Image-2.webp",
-      review: "As a multi-location group, we needed dependable coverage across sites. The virtual assistant connected so well with our workflow, reduced our administrative backlog, and improved patient experience."
-    }
-  ];
-
-  let current = 0;
-
-  const activeImg = document.querySelector(".va-testi-img.active");
-  const upcomingImg = document.querySelector(".va-testi-img.upcoming");
-  const reviewText = document.querySelector(".va-review-text");
-  const clientName = document.querySelector(".va-client-name");
-  const clientPositon = document.querySelector(".va-client-position");
-
-  function showSlide(index) {
-    if (index >= clients.length) current = 0;
-    if (index < 0) current = clients.length - 1;
-
-    // Active client
-    activeImg.src = clients[current].image;
-    activeImg.alt = clients[current].name;
-
-    // Upcoming client
-    let next = (current + 1) % clients.length;
-    upcomingImg.src = clients[next].image;
-    upcomingImg.alt = clients[next].name;
-
-    // Review box
-    reviewText.textContent = `"${clients[current].review}"`;
-    clientName.textContent = clients[current].name;
-    clientPositon.textContent = clients[current].positon;
-  }
-
-  document.querySelector(".va-next").addEventListener("click", () => {
-    current++;
-    showSlide(current);
-  });
-
-  document.querySelector(".va-prev").addEventListener("click", () => {
-    current--;
-    showSlide(current);
-  });
-
-  // Init first slide
-  showSlide(current);
-</script> -->
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
@@ -1123,19 +1046,6 @@
   });
 </script>
 
-<!-- //// Talk To ///// -->
-<!--Start of Tawk.to Script-->
-<!-- <script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/68a847704ebc491927e0ec0c/1j38le3sh';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script> -->
 
 
 </html>
